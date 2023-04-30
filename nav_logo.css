@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+
+
+    
+
+body {
+  font-family: 'Kanit', sans-serif;
+  background-image: url("asset/img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
+
+
+
+ .skewed-box {
+  width: 20%;
+  height: 50px;
+  
+  position: relative;
+  background-color: #CC2954;
+  transform: skewY(-3deg);
+  transform-origin: 0;
+  
+}
+.skewed-box1 {
+  width: 50%;
+  height: 50px;
+  
+  position: relative;
+  background-color: #c5e221;
+  transform: skewY(-3deg);
+  transform-origin: 0;
+  animation: move-box-one 2s linear forwards;
+}
+.skewed-box2 {
+  width: 50%;
+  height: 50px;
+  
+  position: relative;
+  background-color: #e221b2;
+  transform: skewY(2deg);
+  transform-origin: 0;
+}
+
+.skewed-text {
+  position: absolute;
+  bottom: 0;
+  font-family: 'Bruno Ace SC', cursive;
+  left: 0;
+  width: 70%;
+  margin: 0;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+
+  transform: skewY(3deg);
+  transform-origin: 0;
+  
+
+  
+}
+
+
+.justify-content-start {
+    justify-content: flex-end !important;
+  }
+  .navbar-nav .nav-link:hover {
+    background-color: #d39090;
+    border-radius: 1em;
+  }
+  
+
+  .navbar-nav .nav-link {
+    background-color: #c5e221;
+    border-radius: 1em;
+    margin: 5px;
+    text-align: center!important;
+  }
+
+  .navbar-nav .nav-link.active {
+      background-color: #eceaea;
+      border-radius: 1em;
+  }
+  
+  
+ 
+  
+  footer {
+  
+    bottom: 0;
+    width: 100%;
+   
+   
+  }
+  .bg-light {
+    background: transparent!important;
+    backdrop-filter: blur(5px)!important;
+    backdrop-filter: brightness(60%)!important;
+    backdrop-filter: contrast(40%)!important;
+
+    backdrop-filter: grayscale(30%);
+    backdrop-filter: hue-rotate(120deg);
+    backdrop-filter: invert(70%);
+    backdrop-filter: opacity(20%);
+    backdrop-filter: sepia(90%);
+    backdrop-filter: saturate(80%);
+    border-radius: 10px!important;
+    top: 5px!important;
+    
+    width: 100%!important;
+    overflow: hidden!important;
+  }
+  .carousel-item img {
+  height: 500px;
+
+} 
+
+

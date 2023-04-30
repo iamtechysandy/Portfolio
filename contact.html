@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/nav_logo.css">
+    <link rel="stylesheet" href="asset/css/webkit.css">
+   
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"/>
+    
+
+    <title>Techysandy.com</title>
+</head>
+<style>
+
+h2,h6 {
+  background: transparent!important;
+  backdrop-filter: blur(5px)!important;
+  font-weight: 700!important;
+  font-family: 'Bruno Ace SC', cursive;
+  border-radius: 1em!important;
+  backdrop-filter: brightness(80%)!important;
+  backdrop-filter: contrast(30%)!important;
+
+}
+.p-3 {
+  background: transparent!important;
+  backdrop-filter: blur(5px)!important;
+  font-weight: 300!important;
+  font-family: 'Bruno Ace SC', cursive;
+  border-radius: 1em!important;
+  backdrop-filter: brightness(80%)!important;
+  backdrop-filter: contrast(30%)!important;
+}
+
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container label{
+  color: rgb(172, 166, 166)!important;
+  font-weight: 900!important;
+}
+
+.container h1{
+  background: transparent!important;
+  backdrop-filter: blur(5px)!important;
+  font-weight: 700!important;
+  font-family: 'Bruno Ace SC', cursive;
+  border-radius: 1em!important;
+  backdrop-filter: brightness(80%)!important;
+  backdrop-filter: contrast(30%)!important;
+  text-align: center!important;
+
+}
+
+</style>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="skewed-box">
+                <div class="skewed-box2">
+                <div class="skewed-box1">
+                <h1 class="skewed-text">Techysandy.com</h1>
+            </div>
+            </div>
+            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html"><i class="fa fa-cog"></i> Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-info-circle"></i> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html"><i class="fa fa-phone"></i> Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--navbar-end-->
+
+<div class="container">
+    <h1>Contact Us</h1>
+    <form method="post" action="contact.php">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+    </form>
+  </div>
+<br>
+<br>
+
+
+      <!--footer-->
+      <footer class="bg-light text-center text-lg-start" style="
+      backdrop-filter: blur(22px)!important;
+      text-align: center!important;>
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h6 class="text-uppercase">Techysandy.com</h6>
+      
+              <p style="
+              font-weight: 647!important;
+              color: aliceblue;
+          ">
+                We offer specialized services in web development, network-related work, data center setup and maintenance,
+                 and cloud computing. Our team of experts provides customized solutions tailored to meet the unique needs of each business.
+                  Contact us to take your online presence to the next level.
+              </p>
+            </div>
+      
+            
+      
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h6 class="text-uppercase mb-0">Follow Us</h6>
+      
+              <ul class="list-unstyled d-flex justify-content-between mt-2">
+                <li><a href="https://www.facebook.com/1thesandy1" class="text-dark" target="blank"><i class="fab fa-facebook fa-lg"></i></a></li>
+                <li><a href="https://www.twitter.com/iamtechysandy" class="text-dark" target="blank"><i class="fab fa-twitter fa-lg"></i></a></li>
+                <li><a href="#!" class="text-dark"><i class="fab fa-linkedin fa-lg" target="blank"></i></a></li>
+                <li><a href="https://www.instagram.com/iamtechysandy" class="text-dark" target="blank"><i class="fab fa-instagram fa-lg"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 MyBrand. All rights reserved.
+        </div>
+      </footer>
+<!--footer-end-->  
+
+   <!-- Bootstrap 5 JS bundle -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
